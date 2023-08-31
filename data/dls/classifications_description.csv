@@ -1,0 +1,8 @@
+class;description;examples
+Encoding;Softwares used for Keyboard (Character level support) or font support (locale support).;"Apple QuickType Keyboard: Autocomplete keyboard;Common Locale Data Repository (CLDR): Standardized data for locale data ( Language encoding used by Operating Systems (OS) ); Keyman Keyboard: Possibilitates writing custom language support for keyboard"
+Localized;This group refers to Localized User Interface Support. Here are all the Web browsers, OS, messaging apps, social networks, User Interface (UI).;"Firefox: web browser; Instagram: Social network; iOS: Apple operating system"
+Surface;Digital technologies in this group encapsulate Surface-Level Language Processing ( dictionaries, spell checkers and search engines).;"Bing: Search Engine; Hunspell: Spell-checker; Gboard spelling dictionary"
+Meaning;Softwares for Language Processing with Meaning Comprehension (machine translation).;"Google Translate: Google machine translation ; Microsoft Translator: Microsoft Translate Machine Translation"
+Speech;Technologies for Speech Recognition (text-to-speech (tts) or speech-to-text (stt) ) or Production Support.;"Apple QuickType with Dictation Support ; Amazon Polly: Text-to-speech Amazon service ; Orca: screen reader "
+Assistant;Interactive Virtual Assistant that uses voice queries.;"Alexa: Amazon virtual assistant ; Cortana: Microsoft Virtual assistant ; Siri: Apple’s Virtual assistant "
+Content;Digital technologies focused on Localized Content, e.g. News sites, Wikipedia, Online libraries, etc;"BBC News: news site ; Wikipedia: Online encyclopedia "

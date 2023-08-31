@@ -1,0 +1,42 @@
+/* Makes bullet tree with lines in home page 
+   Note: Probably can delete this later.
+*/
+
+.clt, .clt ul, .clt li {
+     position: relative;
+	 padding-bottom:5px
+}
+
+.clt ul {
+    list-style: none;
+    padding-left: 32px;
+}
+
+.clt li::before, .clt li::after {
+    content: "";
+    position: absolute;
+    left: -12px;
+}
+
+.clt li::before {
+    border-top: 1px solid #000;
+    top: 12px;
+    width: 8px;
+    height: 0;
+}
+
+.clt li::after {
+    border-left: 1px solid #000;
+    height: 100%;
+    width: 0px;
+    top: 4px;
+}
+
+.clt ul > li:last-child::after {
+    height: 8px;
+}
+
+.clt p:last-child {
+	margin: 0
+	
+}

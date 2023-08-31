@@ -1,0 +1,132 @@
+
+/* #card-dls-threshold-table > div > a{ */
+    /* border-color: rgb(222, 226, 230); */
+    /* border-radius: 0.35rem; */
+    /* padding: 1px; */
+	
+/* } */
+
+
+/* #card-dls-threshold-table > .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active { */
+    /* color: #495057; */
+    /* background-color: #fff; */
+    /* border-color: #dee2e6 #dee2e6; */
+/* } */
+
+/* Style for tab button in dls threshold-table */
+#card-dls-threshold-table .nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background: 0 0;
+    border: 1px solid transparent;
+    border-radius: 0.35rem;
+}
+
+/* Style for tab button in dls threshold-table when selected*/
+#card-dls-threshold-table .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    /* background-color: rgb(141 223 249); */
+	color: #3967e9;
+    border-color: rgb(222, 226, 230);
+	border-radius: 0.35rem;
+}
+
+/* Style for tab button in dls threshold-table when hover*/
+#card-dls-threshold-table .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+	background-color: rgb(222, 226, 230);
+    border-color: rgb(222, 226, 230);
+	border-radius: 0.35rem;
+    isolation: isolate;
+}
+
+
+
+#card-dls-threshold-table .nav-link:focus, .nav-link{
+    color: #0e0e0e;
+}
+
+#monotonicity_popover > div.popover-body > div > div:nth-child(1) {
+	display: flex;
+	flex-direction: column;
+}
+
+
+#mokken_dls_info_popover {
+	/* inset: -24px auto auto 268px !important; */
+}
+
+
+
+
+/* --------- Monotonicity page tab{start} --------- */
+/* Reorder Monotonicity page tab and text */
+#card-dls-threshold-table-monotonicity {
+	order: 1;
+}
+
+#monotonicity_popover > div.popover-body > div > div:nth-child(1) > div {
+	order: 0;
+	height: 430px;
+}
+
+/* Align monotonicity page tab div to the left */
+
+#card-dls-threshold-table-monotonicity > div:nth-child(1) {
+
+	margin-left: auto;
+	
+}	
+
+
+/* Put border line in top and add padding   */
+
+#card-dls-threshold-table-monotonicity.nav-tabs {
+    border-top: 1px solid #dee2e6;
+	border-bottom: 0px solid #dee2e6;
+    padding-top: 10px;
+}
+
+/* --------- Monotonicity page tab{end} --------- */
+
+
+/* --------- Info span hover --------- */
+
+.fa-info-circle:hover{
+	#font-size: 40px;      
+	background:-moz-linear-gradient(top, #ffffff 0%,#5f5f76 120%);
+	background: -webkit-linear-gradient(top, #ffffff 0%,#5f5f76 120%);
+	background: linear-gradient(to bottom, #ffffff 0%,#5f5f76 120%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+   -webkit-text-fill-color:transparent;
+}
+
+/* --------- Info span click --------- */
+
+.fa-info-circle:active{
+	#font-size: 40px;      
+	background:-moz-linear-gradient(top, #5a5a89 0%,#adadad 50%); 
+	background: -webkit-linear-gradient(top, #5a5a89 0%,#adadad 50%); 
+	background: linear-gradient(to bottom, #5a5a89 0%,#adadad 50%);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	background-clip: text;
+   -webkit-text-fill-color:transparent;
+}
+
+/* GLP info popover  */
+
+#glp_info_popover {
+	max-width: 400px;
+}
+
+
+/* Tab style */
+
+.tab:hover{
+	background: -webkit-linear-gradient(top, #cbcbcb 0%,#ffffff 50%);
+}
+.tab--selected {
+	border: 0px !important;
+	background: -webkit-linear-gradient(top, #cbcbcb 0%,#ffffff 25%);
+}
+

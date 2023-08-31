@@ -1,0 +1,8 @@
+@misc{simons2022assessing,
+      title={Assessing Digital Language Support on a Global Scale}, 
+      author={Gary F. Simons and Abbey L. Thomas and Chad K. White},
+      year={2022},
+      eprint={2209.13515},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}

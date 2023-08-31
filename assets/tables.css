@@ -1,0 +1,12 @@
+
+#table_concentration > tbody > tr > td {
+    padding: 0px;
+}
+
+#table_concentration > tbody > tr > td > button {
+    padding: 0px 5px 3px 5px;
+}
+
+
+
+

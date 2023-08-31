@@ -1,0 +1,14 @@
+Level;Label;Description
+0;International;The language is widely used between nations in trade, knowledge exchange, and international policy.
+1;National;The language is used in education, work, mass media, and government at the national level.
+2;Provincial;The language is used in education, work, mass media, and government within major administrative subdivisions of a nation.
+3;Wider Communication;The language is used in work and mass media without official status to transcend language differences across a region.
+4;Educational;The language is in vigorous use, with standardization and literature being sustained through a widespread system of institutionally supported education.
+5;Developing;The language is in vigorous use, with literature in a standardized form being used by some though this is not yet widespread or sustainable.
+6a;Vigorous;The language is used for face-to-face communication by all generations and the situation is sustainable.
+6b;Threatened;The language is used for face-to-face communication within all generations, but it is losing users.
+7;Shifting;The child-bearing generation can use the language among themselves, but it is not being transmitted to children.
+8a;Moribund;The only remaining active users of the language are members of the grandparent generation and older.
+8b;Nearly Extinct;The only remaining users of the language are members of the grandparent generation or older who have little opportunity to use the language.
+9;Dormant;The language serves as a reminder of heritage identity for an ethnic community, but no one has more than symbolic proficiency.
+10;Extinct;The language is no longer used and no one retains a sense of ethnic identity associated with the language.

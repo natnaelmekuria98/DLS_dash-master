@@ -1,0 +1,213 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>5c42ab8a-4487-4462-a4a0-fc962cdff906</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>app.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>C:\Users\marco\OneDrive\Documentos\UpWork\SIL\Python\dash_DLS_MVP\dash_DLS_MVP\</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>dash_DLS_MVP</Name>
+    <RootNamespace>dash_DLS_MVP</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterId>MSBuild|venv|$(MSBuildProjectFullPath)</InterpreterId>
+    <SuppressConfigureTestFrameworkPrompt>true</SuppressConfigureTestFrameworkPrompt>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="app.py" />
+    <Compile Include="functions.py" />
+    <Compile Include="load_data.py" />
+    <Compile Include="pages\Country_Market_Expansion.py" />
+    <Compile Include="pages\Digital_Language_Support.py" />
+    <Compile Include="pages\Home.py" />
+    <Compile Include="pages\Language_Concentration_Page.py" />
+    <Compile Include="pages\Language_DLS.py" />
+    <Compile Include="pages\Language_Economics.py" />
+    <Compile Include="pages\Language_Network.py" />
+    <Compile Include="pages\Language_Overview_Page.py" />
+    <Compile Include="pages\__init__.py" />
+    <Compile Include="Utils\Digital_x_Institutional_count.py" />
+    <Compile Include="Utils\economic_expansion.py" />
+    <Compile Include="Utils\fill_polytomous_lang_wnodata.py" />
+    <Compile Include="Utils\get_all_numeric_adjusted_results.py" />
+    <Compile Include="Utils\get_currency_of_all_countries.py" />
+    <Compile Include="Utils\get_imf_data.py" />
+    <Compile Include="Utils\get_wb_data.py" />
+    <Compile Include="Utils\ICL.py" />
+    <Compile Include="Utils\Jenks.py" />
+    <Compile Include="Utils\Language_Family_Tree.py" />
+    <Compile Include="Utils\language_network.py" />
+    <Compile Include="Utils\3D_box_dls_glp_egids_test.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\" />
+    <Folder Include="assets\images\" />
+    <Folder Include="assets\images\glp_togo\" />
+    <Folder Include="assets\images\home\" />
+    <Folder Include="assets\images\lang_tree\" />
+    <Folder Include="data\" />
+    <Folder Include="data\dls\" />
+    <Folder Include="data\dls\Old_results\" />
+    <Folder Include="data\dls\Old_results\received_run\" />
+    <Folder Include="data\Gravity_Models\" />
+    <Folder Include="data\IMF\" />
+    <Folder Include="data\WorldBank\" />
+    <Folder Include="pages\" />
+    <Folder Include="pages\__pycache__\" />
+    <Folder Include="Utils\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\all_edges.html" />
+    <Content Include="assets\BulletTreeLines.css" />
+    <Content Include="assets\images\glp_togo\All_languages_polygon.bmp" />
+    <Content Include="assets\images\glp_togo\All_languages_polygon_old.bmp" />
+    <Content Include="assets\images\glp_togo\GDP_per_capita_world_2015.bmp" />
+    <Content Include="assets\images\glp_togo\GLP_L1_pop_ratio.png" />
+    <Content Include="assets\images\glp_togo\GLP_v1.png" />
+    <Content Include="assets\images\glp_togo\GLP_v1_crop.png" />
+    <Content Include="assets\images\glp_togo\log_gdp_world.bmp" />
+    <Content Include="assets\images\glp_togo\pre_GLP.png" />
+    <Content Include="assets\images\glp_togo\Togo_Languages.svg" />
+    <Content Include="assets\images\glp_togo\Togo_log_gdp.svg" />
+    <Content Include="assets\images\glp_togo\Togo_log_pop_count.svg" />
+    <Content Include="assets\images\glp_togo\Togo_number_of_overlaps.svg" />
+    <Content Include="assets\images\glp_togo\Togo_tem_log_gdp.svg" />
+    <Content Include="assets\images\glp_togo\Togo_tem_overlap_lang_log_gdp.svg" />
+    <Content Include="assets\images\home\3dbox.svg" />
+    <Content Include="assets\images\home\bg_curves.svg" />
+    <Content Include="assets\images\home\Dash.pdf" />
+    <Content Include="assets\images\home\Dash_economic1.pdf" />
+    <Content Include="assets\images\home\Dash_economic2.pdf" />
+    <Content Include="assets\images\home\Dash_economic3.pdf" />
+    <Content Include="assets\images\home\Dash_network.pdf" />
+    <Content Include="assets\images\home\desenho.svg" />
+    <Content Include="assets\images\home\dls_car.svg" />
+    <Content Include="assets\images\home\lang_econ.svg" />
+    <Content Include="assets\images\home\lang_over.svg" />
+    <Content Include="assets\images\lang_tree\language_tree.svg" />
+    <Content Include="assets\modal_popover_tabs.css" />
+    <Content Include="assets\natural-sorting.js" />
+    <Content Include="assets\RadioItems.css" />
+    <Content Include="assets\subtable_collapse.js" />
+    <Content Include="assets\tables.css" />
+    <Content Include="assets\Tooltip.css" />
+    <Content Include="assets\x-mathjax-config.js" />
+    <Content Include="data\CPI_A.csv" />
+    <Content Include="data\currencies_by_country.csv" />
+    <Content Include="data\custom_icl" />
+    <Content Include="data\dicl.csv" />
+    <Content Include="data\dls\all_numeric_adjusted_results.csv" />
+    <Content Include="data\dls\classifications_description.csv" />
+    <Content Include="data\dls\dls_mapped_data.csv" />
+    <Content Include="data\dls\dls_polytomous.csv" />
+    <Content Include="data\dls\EGIDS.csv" />
+    <Content Include="data\dls\item_adjusted_score_curve.csv" />
+    <Content Include="data\dls\item_difficulty_info.csv" />
+    <Content Include="data\dls\legal_status.csv" />
+    <Content Include="data\dls\level_quarts.csv" />
+    <Content Include="data\dls\numeric_adjusted_results.csv" />
+    <Content Include="data\dls\Old_results\received_run\numeric_adjusted_results.csv" />
+    <Content Include="data\dls_glp_egid.csv" />
+    <Content Include="data\ease_of_doing_business.csv" />
+    <Content Include="data\fts_ocha_incoming.csv" />
+    <Content Include="data\fts_ocha_outgoing.csv" />
+    <Content Include="data\GLPs.csv" />
+    <Content Include="data\Gravity_Models\coef_by_industry_cl.csv" />
+    <Content Include="data\Gravity_Models\coef_by_sector_cl.csv" />
+    <Content Include="data\hhi_rank.csv" />
+    <Content Include="data\IMF\cdis_inward_investiment.csv" />
+    <Content Include="data\IMF\cdis_outward_investiment.csv" />
+    <Content Include="data\IMF\FD Index Database %28Excel%29.xlsx" />
+    <Content Include="data\IMF\interest_rate.csv" />
+    <Content Include="data\IMF\interest_rates_imf.csv" />
+    <Content Include="data\IMF\metadata_interest_rate.csv" />
+    <Content Include="data\LICs.csv" />
+    <Content Include="data\metadata.xlsx" />
+    <Content Include="data\Table_of_Languages.tab" />
+    <Content Include="data\trade_agreements.csv" />
+    <Content Include="data\t_index_by_lang_with_country_data.csv" />
+    <Content Include="data\wdi_data.csv" />
+    <Content Include="data\world.dbf" />
+    <Content Include="data\world.prj" />
+    <Content Include="data\world.shp" />
+    <Content Include="data\world.shx" />
+    <Content Include="data\WorldBank\worldbankbulk.csv" />
+    <Content Include="data\WPP2019_POP_F07_2_POPULATION_BY_AGE_MALE.xlsx" />
+    <Content Include="data\WPP2019_POP_F07_3_POPULATION_BY_AGE_FEMALE.xlsx" />
+    <Content Include="pages\__pycache__\Language_Concentration_Page.cpython-39.pyc" />
+    <Content Include="pages\__pycache__\Language_Overview_Page.cpython-39.pyc" />
+    <Content Include="pages\__pycache__\__init__.cpython-39.pyc" />
+    <Content Include="Procfile" />
+    <Content Include="README.md" />
+    <Content Include="requirements.txt" />
+    <Content Include="runtime.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="venv\">
+      <Id>venv</Id>
+      <Version>3.9</Version>
+      <Description>venv (Python 3.9 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,39 @@
+.spacing{ margin:10px 0}
+
+/*Fix the Content Section Height to stay full screen*/
+#page-content .fullheight {height:85vh}
+
+
+/* Button - About DLS Button*/
+.form-check-label{
+    background-color:#009688;
+    border:none;
+    color:white;
+    box-shadow: none;
+}
+.form-check-label:hover{
+    background-color:#005e54;
+    border:none;
+    color:white;
+}
+
+
+/*Login Form Border*/
+.formdesign {border:1px solid gray; padding:20px; border-radius:10px}
+
+
+/*Page Footer*/
+/*Change Background Color*/
+#page_footer { background-color: #bf6167}
+/*Stylize the Anchors in the Footer - White Color, Underline when Hover*/
+#page_footer a{
+    color:white!important;
+}
+#page_footer a:hover{
+    color:white;
+    text-decoration: underline!important;
+}
+
+/* DLS language page Modal */
+#modal_lang_info { max-width:75%; }
+

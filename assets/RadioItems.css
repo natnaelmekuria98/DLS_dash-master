@@ -1,0 +1,294 @@
+
+
+/* begin - restyle radio items */
+
+/*Local*/
+.custom-control-label::after,
+.custom-control-label::before {
+  display: none;
+}
+/*Heroku*/
+.form-check-label::after,
+.form-check-label::before {
+  display: none;
+}
+
+/*Local*/
+.custom-control {
+  padding-left: 1.5em;
+}
+/*Heroku*/
+.form-check {
+	padding-left: 1.5em;
+}
+
+/*Local*/
+.custom-control-inline {
+	margin-right: 1.5em;
+}
+/*Heroku*/
+.form-check-inline {
+	margin-right: 1.5em;
+}
+
+
+/*Heroku*/
+.form-check-input{
+	opacity: 0;	
+}
+
+/* Buttons css */
+.btn-group-labels {
+	border: 0px solid #ccc;
+	border-radius: 3px;
+	/*font: bold 11px Roboto, sans-serif;*/
+	padding: 6px 7px;
+	background-color: rgb(191, 181, 255);
+	color: black;
+	/*background-image: -webkit-linear-gradient(top, #0373fc, #0a4476);
+	background-image: -moz-linear-gradient(top, #03dffc, #0275d8);*/
+	cursor: pointer;
+}
+
+.btn-group-labels.btn-group-labels-checked {
+	background-color: rgb(191, 181, 255);
+	color: black;
+	/*background-image: -webkit-linear-gradient(top, #0373fc, #0a4476);
+background-image: -moz-linear-gradient(top, #03dffc, #0275d8);*/
+	box-shadow: 2.5px 3px 2px rgb(0 0 0 / 50%);
+}
+
+/* Custom buttons*/
+.btn2 {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font: bold 11px Roboto, sans-serif;
+	padding: 6px 7px;
+	background-color : #0275d8;
+	color: white;
+	background-image: -webkit-linear-gradient(top, #0373fc, #0a4476);
+	background-image: -moz-linear-gradient(top, #03dffc, #0275d8);
+	cursor: pointer;
+
+	/*width: 100px;
+	color: #000;
+	background-color: #bfb5ff;
+	border-color: #bfb5ff;*/
+	/*align-self: center;*/
+	/*margin-top: 5%;
+	margin-right: 10%;
+	margin-left: 10%;
+	border-radius: 5px 5px 5px 5px;*/
+}
+
+.btn2:active {
+	/*background-color : #0275d8;*/
+	color: white;
+	background-image: -webkit-linear-gradient(top, #0373fc, #0a4476);
+	/*background-image: -moz-linear-gradient(top, #03dffc, #0275d8);*/
+	box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn2:hover {
+	/*background-color : #0275d8;*/
+	color: white;
+	background-image: -webkit-linear-gradient(top, #0373fc, #0a4476);
+	/*background-image: -moz-linear-gradient(top, #03dffc, #0275d8);*/
+	box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.custom-radio:last-child .btn-group-labels {
+  border-radius: 3px 3px 3px 3px;
+}
+
+.custom-radio:not(:last-child) .btn-group-labels {
+  border-right:3px 3px 3px 3px;
+}
+
+.btn-group-labels:hover {
+	box-shadow: inset 1px 2px 3px rgb(0 0 0 / 70%);
+}
+
+/* end - restyle radio items */
+
+
+/*Add shadows to all cards*/
+.card {
+	border-radius: 5px;
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+	border: 0px solid;
+}
+
+.card .card-body {
+	padding: 0px 2px 2px 2px;
+	
+}
+
+/* Set all cards header color and border radius*/
+.card .card-header {
+	border-radius: 5px 5px 0 0;
+	/* background-color: rgb(47 42 177) !important; */
+	background-color: rgb(255, 255, 255) !important;
+}
+
+/* Standard row margins */
+.row {
+	/* margin-top: 1rem; */
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+/* Carrousel buttom adjust */
+
+#carouselHomeIndicators > a.carousel-control-prev {
+	/*left: -100px;*/
+	justify-content: left;
+	/*right: calc(100%-100px);*/
+}
+
+#carouselHomeIndicators > a.carousel-control-next {
+	/*right: -100px*/
+	justify-content: right;
+}
+
+/* carousel background image */
+
+#landing_page > div:nth-child(1) {
+	background-image: url(/assets/images/home/bg_curves.svg);
+	background-size: cover;
+	aspect-ratio: 1687/616;
+}
+
+.card-group > .bg-primary.card {
+	background-color: #009688 !important;
+}
+
+/* Menu dropdown color change */
+
+.dropdown-item.active, .dropdown-item:active {
+	background-color: #db339b;
+}
+
+/* Center loading circle (because its a tab element display flex does not work well */
+
+#map-overview ~ div > div {
+	margin-top: 245px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#top_lang_col_bar_plot ~ div > div {
+	margin-top: 245px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#GLP_plots ~ div > div {
+	margin-top: 245px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#t-index-lang-plot ~ div > div {
+	margin-top: 240px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#language_consumption_info_card ~ div > div {
+	margin-top: 240px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+
+/* Add shadow to dropdown menu */
+
+.Select-control {
+	box-shadow: inset 0.5px 2px 2px rgb(0 0 0 / 20%);
+}
+
+.Select-control:hover {
+	box-shadow: inset 0.5px 2px 2px rgb(0 0 0 / 10%);
+}
+
+.export {
+	background-color: #FD841F;
+    color: #ffffff;
+    padding: 5px 15px;
+	--bs-btn-padding-x: 0.75rem;
+    --bs-btn-padding-y: 0.375rem;
+    --bs-btn-font-family: ;
+    --bs-btn-font-size: 1rem;
+    --bs-btn-font-weight: 400;
+    --bs-btn-line-height: 1.5;
+    --bs-btn-color: #212529;
+    --bs-btn-bg: transparent;
+    --bs-btn-border-width: 1px;
+    --bs-btn-border-color: transparent;
+    --bs-btn-border-radius: 0.375rem;
+    --bs-btn-hover-border-color: transparent;
+    --bs-btn-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);
+    --bs-btn-disabled-opacity: 0.65;
+    --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
+    display: inline-block;
+    /* padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x); */
+    font-family: var(--bs-btn-font-family);
+    font-size: var(--bs-btn-font-size);
+    font-weight: var(--bs-btn-font-weight);
+    line-height: var(--bs-btn-line-height);
+    /* color: var(--bs-btn-color); */
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    /* cursor: pointer; */
+    /* -webkit-user-select: none; */
+    /* -moz-user-select: none; */
+    user-select: none;
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    border-radius: var(--bs-btn-border-radius);
+    /* background-color: var(--bs-btn-bg); */
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.export:hover{
+	background-color: rgb(226,78,42);
+}
+
+.export:active{
+	background-color: rgb(152, 52, 27);
+}
+
+div.dash-spreadsheet-menu {
+	margin-bottom: 30px;
+	justify-content: flex-end;
+}
+
+#datatable-dls-countries-rank > div.dash-spreadsheet-menu {
+	translate: 0px -50px;
+	margin-bottom: -30px !important;
+}
+
+body > footer {
+	padding: 0;
+}
+
+#navbar-content > div > section > div {
+	margin-bottom: 0px !important;
+}

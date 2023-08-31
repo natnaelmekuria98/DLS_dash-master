@@ -1,0 +1,30 @@
+/* CSS modifications for tooltips */
+.bs-tooltip-end .tooltip-arrow::before {
+	/* border-right-color: rgb(120, 100, 225); */
+}
+
+.bs-tooltip-bottom .tooltip-arrow::before {
+	/* border-bottom-color: rgb(120, 100, 225); */
+}
+
+.bs-tooltip-top .tooltip-arrow::before {
+	/* border-top-color: rgb(120, 100, 225); */
+}
+
+.bs-tooltip-start .tooltip-arrow::before {
+	/* border-left-color: rgb(120, 100, 225); */
+}
+
+.tooltip > div:nth-child(2){
+	width: 600px;
+	background-color: rgb(255, 255, 255)
+}
+
+.tooltip.show{
+	opacity: 1
+}
+
+.popover {
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+	border: 2px solid rgba(0,0,0,1);
+}
